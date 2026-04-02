@@ -241,6 +241,6 @@ impl LLM for DeepSeek {
     }
 
     fn max_context_length(&self) -> Option<usize> {
-        Some(1_000_000) // DeepSeek supports 1M context
+        Some(0)
     }
 }
