@@ -486,7 +486,9 @@ dependencies = [
 
 [[package]]
 name = "langhub-core"
-version = "0.1.0"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d108d2979063cbf3fef29040164a3a1432e76ba17254925e4434e20d67a33da6"
 dependencies = [
  "reqwest",
  "serde",
