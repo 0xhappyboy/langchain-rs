@@ -30,7 +30,7 @@ impl TextTool {
             }
         }
 
-        Err(LangChainError::ParseError(
+        Err(langhub_core::LangHubError::ParseError(
             "No valid JSON found in text".to_string(),
         ))
     }
