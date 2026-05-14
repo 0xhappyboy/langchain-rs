@@ -1,4 +1,5 @@
-use langhub_core::*;
+use crate::types::LangHubError;
+use crate::types::Result;
 
 pub struct TextTool;
 
@@ -30,7 +31,7 @@ impl TextTool {
             }
         }
 
-        Err(langhub_core::LangHubError::ParseError(
+        Err(LangHubError::ParseError(
             "No valid JSON found in text".to_string(),
         ))
     }
